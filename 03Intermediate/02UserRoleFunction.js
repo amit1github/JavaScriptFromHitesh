@@ -37,3 +37,5 @@ var getUserRole = function(name, role){
 console.log(getUserRole("Amit", "testprep"));
 
 var getRole = getUserRole("sammy", "user");
+
+console.log(getRole);

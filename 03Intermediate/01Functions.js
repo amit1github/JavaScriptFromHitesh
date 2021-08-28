@@ -2,7 +2,7 @@
 //     console.log("Hello there, Amit");
 // }
 
-// //difference of using parentheses
+// difference of using parentheses
 // sayHello(); //calling a function
 // sayHello; //refrencing a function
 
