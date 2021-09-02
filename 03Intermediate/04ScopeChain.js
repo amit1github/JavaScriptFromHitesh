@@ -1,6 +1,12 @@
-var name = "amit";
 
+ var name = "amit";
+ console.log("line number 3", name);
+
+function naming() {
+  var name = "amit";
 console.log("line number 3", name);
+}
+naming();
 
 function askName() {
   var name = "jerry";
@@ -15,16 +21,18 @@ askAgain();
 
 
 
-// var name = "amit";
+var names = "Uday";
 
-// console.log("line number 3", name);
+console.log("line number 20", names);
 
-// function askName() {
-//   var name = "jerry";
-//   console.log("line number 7 ", name);
-//   askAgain();
+function askNames() {
+  var names = "jerry";
+  console.log("line number 24", names);
+  askAgain();
+  
+  function askAgain() {
+    console.log("line number 28", names);
+  }
+ };
 
-//   function askAgain() {
-//     console.log("line number 12", name);
-//   }
-// };
+ askNames();
